@@ -338,7 +338,64 @@ a:focus {
 /*  background-color: #fdd31d;  
 */	background-color: #011AEC;
 }
+.about_img-box::before,
+.about_img-box::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #16F224;
+}
+.admission_img-box::before,
+.admission_img-box::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #EBF222;
+}
+.contact_img-box::before,
+.contact_img-box::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #C13415;
+}
 
+.about_img-box::before {
+  top: -15px;
+  transform: rotate(139deg);
+  left: -15px;
+  animation: beforeanimate 1s;
+  animation-delay: .1s;
+}
+
+.about_img-box::after {
+  bottom: -15px;
+  transform: rotate(142deg);
+  right: -15px;
+  animation: afteranimate 1s;
+  animation-delay: .1s;
+}
+.admission_img-box::before {
+  top: -15px;
+  transform: rotate(139deg);
+  left: -15px;
+  animation: beforeanimate 1s;
+  animation-delay: .1s;
+}
+
+.admission_img-box::after {
+  bottom: -15px;
+  transform: rotate(142deg);
+  right: -15px;
+  animation: afteranimate 1s;
+  animation-delay: .1s;
+}
 .client_img-box::before {
   top: -15px;
   transform: rotate(139deg);
@@ -348,6 +405,22 @@ a:focus {
 }
 
 .client_img-box::after {
+  bottom: -15px;
+  transform: rotate(142deg);
+  right: -15px;
+  animation: afteranimate 1s;
+  animation-delay: .1s;
+}
+
+.contact_img-box::before {
+  top: -15px;
+  transform: rotate(139deg);
+  left: -15px;
+  animation: beforeanimate 1s;
+  animation-delay: .1s;
+}
+
+.contact_img-box::after {
   bottom: -15px;
   transform: rotate(142deg);
   right: -15px;
