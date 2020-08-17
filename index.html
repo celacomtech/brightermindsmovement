@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html><head>
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,10 +15,10 @@
 
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- progress barstle -->
-  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
-  <!-- fonts style -->
+<!--  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+-->  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
   <!-- font awesome stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -29,8 +27,8 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 	
-  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
-
+<!--  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+-->
 </head>
 
 <body>
@@ -68,13 +66,24 @@
 				  
 				<li class="nav-item">
                   <a class="nav-link" href="#about">About</a>
+					
                 </li>
+				  		<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #EBF222;color: black">
+    Utilities
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Sign In/Out</a>
+    <a class="dropdown-item" href="payment.html">Pay Tuition</a>
+  </div>
+</div>
               </ul>
-            </div>
+            </div>  
+			</div>
         </nav>
       </div>
     </header>
-    <section class="hero_section "id="home"name="home">
+    <section class="hero_section" id="home" name="home">
       <div class="hero-container container">
         <div class="hero_detail-box">
          <p>
@@ -90,7 +99,6 @@
           <div>
             <img src="images/navLogo.png" alt="" class="img-fluid">
       
-<!--			  <img src="https://as2.ftcdn.net/jpg/02/62/49/61/500_F_262496134_OBKWP8STIKqQ8mgxMg5O93ejaneq7HxL.jpg"-->
           </div>
         </div>
       </div>
@@ -106,7 +114,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="about_img-container about_img-box img-thumbnail img-fluid">
-              <img src="images/117445241_2610692072511885_6157575529015199125_n.jpg" alt="">
+              <img src="images/118118199_1580527135455500_2817248348341554459_n.jpg" alt="">
             </div>
           </div>
           <div class="col-md-6">
@@ -152,7 +160,7 @@
           </div>
           <div class="col-md-6">
             <div class="admission_img-container admission_img-box img-thumbnail img-fluid">
-              <img src="images/AdobeStock_204727191_Preview.jpeg" alt="">
+              <img src="images/117951510_1595094370652009_8565492594207963805_n.jpg" alt="">
             </div>
           </div>
         </div>
@@ -449,13 +457,18 @@ Mission Statement
   <section class="container-fluid footer_section">
     <p>
       Copyright &copy; 2020 All Rights Reserved By
-<a href="http://www.celacomtechnologies.com"style="text-decoration: none;color: orange"target="new"title="Celacom Technologies"><img src="images/celacom.png" width="35px"></a>
+<a href="http://www.celacomtechnologies.com"style="text-decoration: none;color: orange"target="new"title="Celacom Technologies">
+	<img src="images/celacom.png" width="35px" alt="">
+		</a>
     </p>
   </section>
   <!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
  
 </body>
